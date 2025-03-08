@@ -8,8 +8,6 @@ class Idevicerestore < Formula
     skip "upstream has inconsistent tags"
   end
 
-  keg_only "it can conflict with homebrew/core"
-
   depends_on "autoconf" => :build
   depends_on "automake" => :build
   depends_on "libtool" => :build
