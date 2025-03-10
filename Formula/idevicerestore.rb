@@ -1,6 +1,6 @@
 class Idevicerestore < Formula
-  desc "Restore firmware files to iOS devices"
-  homepage "https://www.libimobiledevice.org/"
+  desc "Restore/upgrade firmware of iOS devices"
+  homepage "https://libimobiledevice.org/"
   license "LGPL-3.0-only"
   head "https://github.com/libimobiledevice/idevicerestore.git", branch: "master"
 
